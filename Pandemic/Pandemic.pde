@@ -21,9 +21,9 @@ void setup() {
   for(int i = 0; i < numPeople; i++) {
     //Change these numbers to raise or lower the chace of healthy, sick and healers
     float sickness = random(10);
-    if (sickness < 4)
+    if (sickness < 3)
       S = "green";
-    else if (sickness < 7)
+    else if (sickness < 9)
       S = "red";
     else
       S = "blue";
